@@ -1,0 +1,61 @@
+{
+    "appKeys": {
+        "KEY_ALEC": 2,
+        "KEY_COND": 7,
+        "KEY_HIGHTEMP": 5,
+        "KEY_LOWTEMP": 6,
+        "KEY_MELISSA": 3,
+        "KEY_SARAH": 1,
+        "KEY_TEMP": 4,
+        "KEY_ZACK": 0
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "zachary.waser@gmail.com",
+    "enableMultiJS": true,
+    "longName": "sarah_watchface_22",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!\"#$%^&'()*+]",
+                "file": "fonts/Meteocons",
+                "name": "FONT_METEOCONS_35",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/sketchy_15",
+                "name": "FONT_SKETCHY_15",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[AMSZ1-9\u00b0-]",
+                "file": "fonts/sketchy_numbers01_20",
+                "name": "FONT_SKETCHY_NUMBERS_20",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/sketchy_numbers_60",
+                "name": "FONT_SKETCHY_NUMBERS_62",
+                "targetPlatforms": null,
+                "trackingAdjust": 2,
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "sarah_watchface_22",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "7e806d92-7d22-454a-a10d-c767278ac385",
+    "versionLabel": "2.2",
+    "watchapp": {
+        "watchface": true
+    }
+}
